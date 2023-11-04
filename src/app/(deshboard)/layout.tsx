@@ -14,6 +14,7 @@ export default function layout({ children }: { children: React.ReactNode }) {
           <UserButton afterSignOutUrl="/sign-in" />
         </div>
       </nav>
+      <main className="flex w-full flex-grow">{children}</main>
     </div>
   );
 }
